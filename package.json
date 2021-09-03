@@ -1,0 +1,28 @@
+{
+  "name": "coder-assist",
+  "version": "1.0.0",
+  "description": "Coders, Helpers (inanimate, pets &amp; family) and resources",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KC135Q/coder-assist.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KC135Q/coder-assist/issues"
+  },
+  "homepage": "https://github.com/KC135Q/coder-assist#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
