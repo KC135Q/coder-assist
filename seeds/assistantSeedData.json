@@ -1,0 +1,17 @@
+[
+  {
+    "type": "Rat",
+    "name": "Cutie",
+    "coder_id": 1
+  },
+  {
+    "type": "Human",
+    "name": "Jack",
+    "coder_id": 1
+  },
+  {
+    "type": "Rat",
+    "name": "Cutie",
+    "coder_id": 2
+  } 
+]
