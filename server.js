@@ -1,5 +1,6 @@
 const express = require("express");
 const path = require("path");
+const sequelize = require("./config/connection");
 
 const PORT = process.env.PORT || 3001;
 
@@ -18,6 +19,7 @@ app.get("/profile", (req, res) => {
   res.sendFile(path.join(__dirname, "/public/profile.html"));
 });
 
-app.listen(PORT, () => {
-  console.log(`App started at http://localhost:${PORT}/`);
+// turn on connection to db and server
+sequelize.sync({ force: true }).then(() => {
+  app.listen(PORT, () => console.log("Now listening"));
 });

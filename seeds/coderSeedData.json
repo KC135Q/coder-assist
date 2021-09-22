@@ -1,0 +1,34 @@
+[
+  {
+    "email_address": "Ford@Ford.com",
+    "password": "Mustang"
+  },
+  {
+    "email_address": "Ford1@Ford.com",
+    "password": "Mustang1"
+  },
+  {
+    "email_address": "Ford2@Ford.com",
+    "password": "Mustang2"
+  },
+  {
+    "email_address": "Ford3@Ford.com",
+    "password": "Mustang3"
+  },
+  {
+    "email_address": "Ford4@Ford.com",
+    "password": "Mustang4"
+  },
+  {
+    "email_address": "Ford5@Ford.com",
+    "password": "Mustang5"
+  },
+  {
+    "email_address": "Ford6@Ford.com",
+    "password": "Mustang6"
+  },
+  {
+    "email_address": "Ford7@Ford.com",
+    "password": "Mustang7"
+  }
+]
