@@ -22,7 +22,7 @@ Assistant.init(
     coder_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'coder',
+        model: 'Coder',
         key: 'id',
       },
     },
